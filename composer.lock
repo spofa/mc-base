@@ -7164,7 +7164,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/platformsh-redbull/mc-configuration.git",
-                "reference": "df1fe65b30cdd505b1ccfe7c06b23d25a0b61d68"
+                "reference": "fbe35af62adc2ac3c1938232133f8955c6906e08"
             },
             "require": {
                 "php": ">=5.6.0"
@@ -7173,8 +7173,8 @@
             "license": [
                 "MIT"
             ],
-            "description": "Provides defautl configuration to build and deploy Magento 2 Enterprise Edition",
-            "time": "2016-04-01 16:25:58"
+            "description": "Provides default configuration to build and deploy Magento 2 Enterprise Edition",
+            "time": "2016-04-01 22:08:54"
         },
         {
             "name": "psr/log",
