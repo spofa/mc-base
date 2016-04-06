@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "1022051949abf290ef5fc95dcb96a387",
-    "content-hash": "9f12c6c16785bbcaaecdbd1eeb029ee4",
+    "hash": "17538cab416c400503c1b657d635d66a",
+    "content-hash": "2b2a71f4b0a2120e60a50ad28a3060cf",
     "packages": [
         {
             "name": "braintree/braintree_php",
@@ -7735,28 +7735,6 @@
             "time": "2015-08-11 12:30:09"
         },
         {
-            "name": "vrann/magento20-patches",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/vrann/magento20-patches.git",
-                "reference": "0a86e5c8d931423895d63b846da887374990a7bf"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/vrann/magento20-patches/zipball/0a86e5c8d931423895d63b846da887374990a7bf",
-                "reference": "0a86e5c8d931423895d63b846da887374990a7bf",
-                "shasum": ""
-            },
-            "require": {
-                "php": "~5.5.0|~5.6.0"
-            },
-            "type": "library",
-            "notification-url": "https://packagist.org/downloads/",
-            "description": "N/A",
-            "time": "2016-03-16 18:18:58"
-        },
-        {
             "name": "zendframework/zend-code",
             "version": "2.4.9",
             "source": {
@@ -10666,7 +10644,6 @@
     "stability-flags": {
         "composer/composer": 15,
         "platformsh-redbull/mc-configuration": 20,
-        "vrann/magento20-patches": 20,
         "phpmd/phpmd": 0
     },
     "prefer-stable": true,

@@ -21,7 +21,6 @@
         "magento/product-enterprise-edition": "2.0.4",
         "composer/composer": "@alpha",
         "platformsh-redbull/mc-configuration": "dev-master",
-        "vrann/magento20-patches": "dev-master",
         "cweagans/composer-patches": "~1.0"
     },
     "require-dev": {
