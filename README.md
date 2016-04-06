@@ -31,7 +31,7 @@ needs, right?
 
 The ``composer.json`` will fetch the Magento 2.0 Enterprise Edition, and some configuration scripts to prepare your application.
 
-Make sure you add your Magento credentials to the `auth.json` file and that those credentials can get you access to Magento Enterprise Edition. You can get those credentials in your [MagentoCommerce account](https://www.magentocommerce.com/magento-connect/customerdata/accessKeys/list/).
+Make sure you add your Magento credentials to the `auth.json` file based on the `auth.json.sample` example and that those credentials can get you access to Magento Enterprise Edition. You can get those credentials in your [MagentoCommerce account](https://www.magentocommerce.com/magento-connect/customerdata/accessKeys/list/).
 
 ```
 "http-basic": {

@@ -1892,6 +1892,11 @@
                 "magento/module-cookie": "100.0.*"
             },
             "type": "magento2-module",
+            "extra": {
+                "patches_applied": {
+                    "Workaround assumption about incremental ids": "patches/install-category-ids-1.patch"
+                }
+            },
             "autoload": {
                 "files": [
                     "registration.php"
@@ -2267,6 +2272,11 @@
                 "magento/module-cookie": "100.0.*"
             },
             "type": "magento2-module",
+            "extra": {
+                "patches_applied": {
+                    "Workaround assumption about incremental ids": "patches/install-category-ids-1.patch"
+                }
+            },
             "autoload": {
                 "files": [
                     "registration.php"
@@ -5622,6 +5632,11 @@
                 "php": "~5.5.0|~5.6.0|~7.0.0"
             },
             "type": "magento2-module",
+            "extra": {
+                "patches_applied": {
+                    "Workaround assumption about incremental ids": "patches/install-category-ids-2.patch"
+                }
+            },
             "autoload": {
                 "files": [
                     "registration.php"
@@ -5649,6 +5664,11 @@
                 "php": "~5.5.0|~5.6.0|~7.0.0"
             },
             "type": "magento2-module",
+            "extra": {
+                "patches_applied": {
+                    "Workaround assumption about incremental ids": "patches/install-category-ids-2.patch"
+                }
+            },
             "autoload": {
                 "files": [
                     "registration.php"
@@ -7674,28 +7694,6 @@
             ],
             "abandoned": "php-amqplib/php-amqplib",
             "time": "2015-08-11 12:30:09"
-        },
-        {
-            "name": "vrann/magento20-patches",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/vrann/magento20-patches.git",
-                "reference": "0a86e5c8d931423895d63b846da887374990a7bf"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/vrann/magento20-patches/zipball/0a86e5c8d931423895d63b846da887374990a7bf",
-                "reference": "0a86e5c8d931423895d63b846da887374990a7bf",
-                "shasum": ""
-            },
-            "require": {
-                "php": "~5.5.0|~5.6.0"
-            },
-            "type": "library",
-            "notification-url": "https://packagist.org/downloads/",
-            "description": "N/A",
-            "time": "2016-03-16 18:18:58"
         },
         {
             "name": "zendframework/zend-code",
