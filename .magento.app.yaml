@@ -46,15 +46,15 @@ web:
                 /robots\.txt$:
                     allow: true
         "/media":
-          root: "pub/media"
-          allow: true
-          scripts: false
-          passthru: "/index.php"
+            root: "pub/media"
+            allow: true
+            scripts: false
+            passthru: "/index.php"
         "/static":
-          root: "pub/static"
-          allow: true
-          scripts: false
-          passthru: "/front-static.php"
+            root: "pub/static"
+            allow: true
+            scripts: false
+            passthru: "/front-static.php"
 
 
 # The size of the persistent disk of the application (in MB).
