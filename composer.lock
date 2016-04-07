@@ -287,7 +287,9 @@
             },
             "type": "magento2-library",
             "extra": {
-                "patches_applied": []
+                "patches_applied": {
+                    "Fix the static assets front controller": "vendor/vrann/magento20-patches/patches/fix-static-assets-controller.patch"
+                }
             },
             "autoload": {
                 "psr-4": {
@@ -1940,7 +1942,9 @@
             },
             "type": "magento2-module",
             "extra": {
-                "patches_applied": []
+                "patches_applied": {
+                    "Workaround assumption about incremental ids": "vendor/vrann/magento20-patches/patches/install-category-ids-1.patch"
+                }
             },
             "autoload": {
                 "files": [
@@ -5624,7 +5628,9 @@
             },
             "type": "magento2-module",
             "extra": {
-                "patches_applied": []
+                "patches_applied": {
+                    "Workaround assumption about incremental ids": "vendor/vrann/magento20-patches/patches/install-category-ids-2.patch"
+                }
             },
             "autoload": {
                 "files": [
