@@ -22,6 +22,9 @@ atlassian*
 /lib/internal/flex/varien/.settings
 /node_modules
 /.grunt
+/app/etc/vendor_path.php
+/README_EE.md
+/php.ini.sample
 
 /pub/media/*.*
 !/pub/media/.htaccess
@@ -44,6 +47,7 @@ atlassian*
 /pub/static/*
 !/pub/static/.htaccess
 
+/app/etc/vendor_path.php
 /var/*
 !/var/.htaccess
 /vendor
