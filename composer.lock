@@ -287,9 +287,7 @@
             },
             "type": "magento2-library",
             "extra": {
-                "patches_applied": {
-                    "Fix the static assets front controller": "vendor/vrann/magento20-patches/patches/fix-static-assets-controller.patch"
-                }
+                "patches_applied": []
             },
             "autoload": {
                 "psr-4": {
@@ -1942,9 +1940,7 @@
             },
             "type": "magento2-module",
             "extra": {
-                "patches_applied": {
-                    "Workaround assumption about incremental ids": "vendor/vrann/magento20-patches/patches/install-category-ids-1.patch"
-                }
+                "patches_applied": []
             },
             "autoload": {
                 "files": [
@@ -5628,9 +5624,7 @@
             },
             "type": "magento2-module",
             "extra": {
-                "patches_applied": {
-                    "Workaround assumption about incremental ids": "vendor/vrann/magento20-patches/patches/install-category-ids-2.patch"
-                }
+                "patches_applied": []
             },
             "autoload": {
                 "files": [
@@ -7223,7 +7217,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/platformsh-redbull/mc-configuration.git",
-                "reference": "0a7103bee64304fefe055a5162d7c503470baf6c"
+                "reference": "2da5e29e047725e2da2719c241617dd29e2772f7"
             },
             "require": {
                 "php": ">=5.6.0"
@@ -7233,7 +7227,7 @@
                 "MIT"
             ],
             "description": "Provides default configuration to build and deploy Magento 2 Enterprise Edition",
-            "time": "2016-04-06 23:36:30"
+            "time": "2016-04-07 03:57:12"
         },
         {
             "name": "psr/log",
