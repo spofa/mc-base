@@ -15,7 +15,7 @@
         {
             "url": "https://github.com/platformsh-redbull/mc-configuration.git",
             "type": "git"
-        },
+        }
     ],
     "require": {
         "magento/product-enterprise-edition": "2.0.4",
