@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "17538cab416c400503c1b657d635d66a",
-    "content-hash": "2b2a71f4b0a2120e60a50ad28a3060cf",
+    "hash": "76f756fb6b68c20ea30efb9431e8615a",
+    "content-hash": "ba5d9007847f2bb4daa6d8fadb115c45",
     "packages": [
         {
             "name": "braintree/braintree_php",
@@ -286,11 +286,6 @@
                 "ext-imagick": "Use Image Magick >=3.0.0 as an optional alternative image processing library"
             },
             "type": "magento2-library",
-            "extra": {
-                "patches_applied": {
-                    "Fix the static assets front controller": "patches/fix-static-assets-controller.patch"
-                }
-            },
             "autoload": {
                 "psr-4": {
                     "Magento\\Framework\\": ""
@@ -1941,11 +1936,6 @@
                 "magento/module-cookie": "100.0.*"
             },
             "type": "magento2-module",
-            "extra": {
-                "patches_applied": {
-                    "Workaround assumption about incremental ids": "patches/install-category-ids-1.patch"
-                }
-            },
             "autoload": {
                 "files": [
                     "registration.php"
@@ -5627,11 +5617,6 @@
                 "php": "~5.5.0|~5.6.0|~7.0.0"
             },
             "type": "magento2-module",
-            "extra": {
-                "patches_applied": {
-                    "Workaround assumption about incremental ids": "patches/install-category-ids-2.patch"
-                }
-            },
             "autoload": {
                 "files": [
                     "registration.php"
@@ -7223,7 +7208,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/platformsh-redbull/mc-configuration.git",
-                "reference": "9a83396328f01ebd6c9d871b6241bd3a0843a3cf"
+                "reference": "0a7103bee64304fefe055a5162d7c503470baf6c"
             },
             "require": {
                 "php": ">=5.6.0"
@@ -7233,7 +7218,7 @@
                 "MIT"
             ],
             "description": "Provides default configuration to build and deploy Magento 2 Enterprise Edition",
-            "time": "2016-04-06 13:50:03"
+            "time": "2016-04-06 23:36:30"
         },
         {
             "name": "psr/log",
@@ -7733,6 +7718,18 @@
             ],
             "abandoned": "php-amqplib/php-amqplib",
             "time": "2015-08-11 12:30:09"
+        },
+        {
+            "name": "vrann/magento20-patches",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/vrann/magento20-patches.git",
+                "reference": "96b5b2920bb7cc3f8259f9e7664861e690d90f82"
+            },
+            "type": "library",
+            "description": "Collection of the patches for Magento 2.0.4",
+            "time": "2016-04-06 21:27:12"
         },
         {
             "name": "zendframework/zend-code",
@@ -10644,6 +10641,7 @@
     "stability-flags": {
         "composer/composer": 15,
         "platformsh-redbull/mc-configuration": 20,
+        "vrann/magento20-patches": 20,
         "phpmd/phpmd": 0
     },
     "prefer-stable": true,
