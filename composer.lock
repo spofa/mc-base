@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "76f756fb6b68c20ea30efb9431e8615a",
-    "content-hash": "ba5d9007847f2bb4daa6d8fadb115c45",
+    "hash": "4a3e6ae8e5c31f4292cbf3cb36cdb620",
+    "content-hash": "e5397f2f095b2e2f8f4592040757fb36",
     "packages": [
         {
             "name": "braintree/braintree_php",
@@ -286,6 +286,11 @@
                 "ext-imagick": "Use Image Magick >=3.0.0 as an optional alternative image processing library"
             },
             "type": "magento2-library",
+            "extra": {
+                "patches_applied": {
+                    "Fix the static assets front controller": "vendor/vrann/magento20-patches/patches/fix-static-assets-controller.patch"
+                }
+            },
             "autoload": {
                 "psr-4": {
                     "Magento\\Framework\\": ""
@@ -1936,6 +1941,11 @@
                 "magento/module-cookie": "100.0.*"
             },
             "type": "magento2-module",
+            "extra": {
+                "patches_applied": {
+                    "Workaround assumption about incremental ids": "vendor/vrann/magento20-patches/patches/install-category-ids-1.patch"
+                }
+            },
             "autoload": {
                 "files": [
                     "registration.php"
@@ -5617,6 +5627,11 @@
                 "php": "~5.5.0|~5.6.0|~7.0.0"
             },
             "type": "magento2-module",
+            "extra": {
+                "patches_applied": {
+                    "Workaround assumption about incremental ids": "vendor/vrann/magento20-patches/patches/install-category-ids-2.patch"
+                }
+            },
             "autoload": {
                 "files": [
                     "registration.php"
