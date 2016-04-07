@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "4a3e6ae8e5c31f4292cbf3cb36cdb620",
-    "content-hash": "e5397f2f095b2e2f8f4592040757fb36",
+    "hash": "1762476b11e1f4bf88905dcc783614c9",
+    "content-hash": "6adea8099e2554de1f7870eb7e2b455a",
     "packages": [
         {
             "name": "braintree/braintree_php",
@@ -7223,7 +7223,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/platformsh-redbull/mc-configuration.git",
-                "reference": "0a7103bee64304fefe055a5162d7c503470baf6c"
+                "reference": "2da5e29e047725e2da2719c241617dd29e2772f7"
             },
             "require": {
                 "php": ">=5.6.0"
@@ -7233,7 +7233,7 @@
                 "MIT"
             ],
             "description": "Provides default configuration to build and deploy Magento 2 Enterprise Edition",
-            "time": "2016-04-06 23:36:30"
+            "time": "2016-04-07 03:57:12"
         },
         {
             "name": "psr/log",
@@ -7740,11 +7740,27 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/vrann/magento20-patches.git",
-                "reference": "96b5b2920bb7cc3f8259f9e7664861e690d90f82"
+                "reference": "1b475d941924dccd58396d76290673def05609c9"
+            },
+            "require": {
+                "cweagans/composer-patches": "~1.0"
             },
             "type": "library",
+            "extra": {
+                "patches": {
+                    "magento/framework": {
+                        "Fix the static assets front controller": "patches/fix-static-assets-controller.patch"
+                    },
+                    "magento/module-catalog": {
+                        "Workaround assumption about incremental ids": "patches/install-category-ids-1.patch"
+                    },
+                    "magento/module-store": {
+                        "Workaround assumption about incremental ids": "patches/install-category-ids-2.patch"
+                    }
+                }
+            },
             "description": "Collection of the patches for Magento 2.0.4",
-            "time": "2016-04-06 21:27:12"
+            "time": "2016-04-07 15:23:59"
         },
         {
             "name": "zendframework/zend-code",
