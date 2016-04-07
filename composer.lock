@@ -531,16 +531,16 @@
         },
         {
             "name": "magento/magento-composer-installer",
-            "version": "0.1.6",
+            "version": "0.1.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/magento/magento-composer-installer.git",
-                "reference": "5b5d29ebe060bc6754c2999206923489db8ca641"
+                "reference": "9a415d7617d07f3270d22c374611252369f957e7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/magento/magento-composer-installer/zipball/5b5d29ebe060bc6754c2999206923489db8ca641",
-                "reference": "5b5d29ebe060bc6754c2999206923489db8ca641",
+                "url": "https://api.github.com/repos/magento/magento-composer-installer/zipball/9a415d7617d07f3270d22c374611252369f957e7",
+                "reference": "9a415d7617d07f3270d22c374611252369f957e7",
                 "shasum": ""
             },
             "require": {
@@ -603,7 +603,7 @@
                 "composer-installer",
                 "magento"
             ],
-            "time": "2016-01-25 22:04:43"
+            "time": "2016-04-06 16:10:50"
         },
         {
             "name": "magento/magento2-base",
@@ -7223,7 +7223,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/platformsh-redbull/mc-configuration.git",
-                "reference": "2da5e29e047725e2da2719c241617dd29e2772f7"
+                "reference": "cb92b41dacb89d064d8e3cb54a92bfb179e38478"
             },
             "require": {
                 "php": ">=5.6.0"
@@ -7233,7 +7233,7 @@
                 "MIT"
             ],
             "description": "Provides default configuration to build and deploy Magento 2 Enterprise Edition",
-            "time": "2016-04-07 03:57:12"
+            "time": "2016-04-07 21:08:21"
         },
         {
             "name": "psr/log",
@@ -7740,7 +7740,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/vrann/magento20-patches.git",
-                "reference": "1b475d941924dccd58396d76290673def05609c9"
+                "reference": "fd3f780c14cf11f4fad66d1df522e86fc881116f"
             },
             "require": {
                 "cweagans/composer-patches": "~1.0"
@@ -7760,7 +7760,7 @@
                 }
             },
             "description": "Collection of the patches for Magento 2.0.4",
-            "time": "2016-04-07 15:23:59"
+            "time": "2016-04-07 20:20:11"
         },
         {
             "name": "zendframework/zend-code",
