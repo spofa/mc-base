@@ -68,13 +68,13 @@
         "magento-force": "override",
         "patches": {
             "magento/framework": {
-                "Fix the static assets front controller": "patches/fix-static-assets-controller.patch"
+                "Fix the static assets front controller": "vendor/vrann/magento20-patches/patches/fix-static-assets-controller.patch"
             },
             "magento/module-catalog": {
-                "Workaround assumption about incremental ids": "patches/install-category-ids-1.patch"
+                "Workaround assumption about incremental ids": "vendor/vrann/magento20-patches/patches/install-category-ids-1.patch"
             },
             "magento/module-store": {
-                "Workaround assumption about incremental ids": "patches/install-category-ids-2.patch"
+                "Workaround assumption about incremental ids": "vendor/vrann/magento20-patches/patches/install-category-ids-2.patch"
             }
         }
     }
