@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "0d69dcfb54fd5f6b3ee209dec18826a9",
-    "content-hash": "48d4f7e0f5e1a8899d6e82f744782f52",
+    "hash": "e049ec56582181b9397188b784032205",
+    "content-hash": "0340da361a24a044c858bcf366d7065a",
     "packages": [
         {
             "name": "braintree/braintree_php",
@@ -119,50 +119,6 @@
                 "package"
             ],
             "time": "2015-04-14 21:18:51"
-        },
-        {
-            "name": "cweagans/composer-patches",
-            "version": "1.4.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/cweagans/composer-patches.git",
-                "reference": "0d75c63b6de66144517a1da9084422b78c2ff251"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/cweagans/composer-patches/zipball/0d75c63b6de66144517a1da9084422b78c2ff251",
-                "reference": "0d75c63b6de66144517a1da9084422b78c2ff251",
-                "shasum": ""
-            },
-            "require": {
-                "composer-plugin-api": "~1.0",
-                "php": ">=5.3.0"
-            },
-            "require-dev": {
-                "composer/composer": "~1.0",
-                "phpunit/phpunit": "~4.6"
-            },
-            "type": "composer-plugin",
-            "extra": {
-                "class": "cweagans\\Composer\\Patches"
-            },
-            "autoload": {
-                "psr-4": {
-                    "cweagans\\Composer\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD"
-            ],
-            "authors": [
-                {
-                    "name": "Cameron Eagans",
-                    "email": "me@cweagans.net"
-                }
-            ],
-            "description": "Provides a way to patch Composer packages.",
-            "time": "2016-02-29 03:45:02"
         },
         {
             "name": "justinrainbow/json-schema",
@@ -7223,7 +7179,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/platformsh-redbull/mc-configuration.git",
-                "reference": "cb92b41dacb89d064d8e3cb54a92bfb179e38478"
+                "reference": "e7cfcd5ecaf5d847669a0a44928563ab67e321f9"
             },
             "require": {
                 "php": ">=5.6.0"
@@ -7233,7 +7189,7 @@
                 "MIT"
             ],
             "description": "Provides default configuration to build and deploy Magento 2 Enterprise Edition",
-            "time": "2016-04-07 21:08:21"
+            "time": "2016-04-08 15:39:41"
         },
         {
             "name": "psr/log",
