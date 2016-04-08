@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "1762476b11e1f4bf88905dcc783614c9",
-    "content-hash": "6adea8099e2554de1f7870eb7e2b455a",
+    "hash": "0d69dcfb54fd5f6b3ee209dec18826a9",
+    "content-hash": "48d4f7e0f5e1a8899d6e82f744782f52",
     "packages": [
         {
             "name": "braintree/braintree_php",
@@ -288,7 +288,7 @@
             "type": "magento2-library",
             "extra": {
                 "patches_applied": {
-                    "Fix the static assets front controller": "vendor/vrann/magento20-patches/patches/fix-static-assets-controller.patch"
+                    "Fix the static assets front controller": "patches/fix-static-assets-controller.patch"
                 }
             },
             "autoload": {
@@ -1943,7 +1943,7 @@
             "type": "magento2-module",
             "extra": {
                 "patches_applied": {
-                    "Workaround assumption about incremental ids": "vendor/vrann/magento20-patches/patches/install-category-ids-1.patch"
+                    "Workaround assumption about incremental ids": "patches/install-category-ids-1.patch"
                 }
             },
             "autoload": {
@@ -5629,7 +5629,7 @@
             "type": "magento2-module",
             "extra": {
                 "patches_applied": {
-                    "Workaround assumption about incremental ids": "vendor/vrann/magento20-patches/patches/install-category-ids-2.patch"
+                    "Workaround assumption about incremental ids": "patches/install-category-ids-2.patch"
                 }
             },
             "autoload": {
@@ -7733,34 +7733,6 @@
             ],
             "abandoned": "php-amqplib/php-amqplib",
             "time": "2015-08-11 12:30:09"
-        },
-        {
-            "name": "vrann/magento20-patches",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/vrann/magento20-patches.git",
-                "reference": "fd3f780c14cf11f4fad66d1df522e86fc881116f"
-            },
-            "require": {
-                "cweagans/composer-patches": "~1.0"
-            },
-            "type": "library",
-            "extra": {
-                "patches": {
-                    "magento/framework": {
-                        "Fix the static assets front controller": "patches/fix-static-assets-controller.patch"
-                    },
-                    "magento/module-catalog": {
-                        "Workaround assumption about incremental ids": "patches/install-category-ids-1.patch"
-                    },
-                    "magento/module-store": {
-                        "Workaround assumption about incremental ids": "patches/install-category-ids-2.patch"
-                    }
-                }
-            },
-            "description": "Collection of the patches for Magento 2.0.4",
-            "time": "2016-04-07 20:20:11"
         },
         {
             "name": "zendframework/zend-code",
@@ -10672,7 +10644,6 @@
     "stability-flags": {
         "composer/composer": 15,
         "platformsh-redbull/mc-configuration": 20,
-        "vrann/magento20-patches": 20,
         "phpmd/phpmd": 0
     },
     "prefer-stable": true,
