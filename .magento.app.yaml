@@ -71,10 +71,10 @@ mounts:
 hooks:
     # We run build hooks before your application has been packaged.
     build: |
-        php bin/magento magento-cloud:build
+        php ./vendor/platformsh-redbull/mc-configuration/magento-build.php
     # We run deploy hook after your application has been deployed and started.
     deploy: |
-        php bin/magento magento-cloud:deploy
+        php ./vendor/platformsh-redbull/mc-configuration/magento-deploy.php
 
 # Default Magento 2 cron jobs
 crons:
