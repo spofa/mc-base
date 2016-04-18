@@ -242,11 +242,6 @@
                 "ext-imagick": "Use Image Magick >=3.0.0 as an optional alternative image processing library"
             },
             "type": "magento2-library",
-            "extra": {
-                "patches_applied": {
-                    "Fix the static assets front controller": "patches/fix-static-assets-controller.patch"
-                }
-            },
             "autoload": {
                 "psr-4": {
                     "Magento\\Framework\\": ""
@@ -1897,11 +1892,6 @@
                 "magento/module-cookie": "100.0.*"
             },
             "type": "magento2-module",
-            "extra": {
-                "patches_applied": {
-                    "Workaround assumption about incremental ids": "patches/install-category-ids-1.patch"
-                }
-            },
             "autoload": {
                 "files": [
                     "registration.php"
@@ -5583,11 +5573,6 @@
                 "php": "~5.5.0|~5.6.0|~7.0.0"
             },
             "type": "magento2-module",
-            "extra": {
-                "patches_applied": {
-                    "Workaround assumption about incremental ids": "patches/install-category-ids-2.patch"
-                }
-            },
             "autoload": {
                 "files": [
                     "registration.php"
@@ -7179,7 +7164,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/platformsh-redbull/mc-configuration.git",
-                "reference": "e7cfcd5ecaf5d847669a0a44928563ab67e321f9"
+                "reference": "975e9096b1ab9e1892f30ca5b08cca666d85da3d"
             },
             "require": {
                 "php": ">=5.6.0"
@@ -7189,7 +7174,7 @@
                 "MIT"
             ],
             "description": "Provides default configuration to build and deploy Magento 2 Enterprise Edition",
-            "time": "2016-04-08 15:39:41"
+            "time": "2016-04-18 12:46:57"
         },
         {
             "name": "psr/log",
